@@ -31,12 +31,14 @@ module.exports = {
       },
     },
     extend: {
+        
       borderColor: theme => ({
         DEFAULT: theme('colors.gray.200', 'currentColor'),
       }),
       fontFamily: {
-        sans: ['Cerebri Sans', ...defaultTheme.fontFamily.sans],
-      },
+        'press-start': ['"Roboto"', 'sans-serif']
+
+                  },
       boxShadow: theme => ({
         outline: '0 0 0 2px ' + theme('colors.indigo.500'),
       }),

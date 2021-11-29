@@ -1,15 +1,55 @@
 <template>
-  <div>
-    <h1 class="mb-8 font-bold text-3xl">Dashboard</h1>
-    <p class="mb-8 leading-normal">Hey there! Welcome to Ping CRM, a demo app designed to help illustrate how <a class="text-indigo-500 underline hover:text-orange-600" href="https://inertiajs.com">Inertia.js</a> works.</p>
-  </div>
+
+
+
+<div>
+    <div >
+        <Headers></Headers>
+    </div>
+
+    <div>
+        <Video></Video>
+    </div>
+
+    <div>
+        <Price></Price>
+    </div>
+
+    <div>
+        <Quote></Quote>
+    </div>
+
+    <div>
+        <Blog></Blog>
+    </div>
+
+    <div>
+        <Footer></Footer>
+    </div>
+
+</div>
+
 </template>
 
 <script>
+import Price from '@/Shared/Price'
 import Layout from '@/Shared/Layout'
+import Video from '@/Shared/Video'
+import Headers from '@/Shared/Headers'
+import Quote from '@/Shared/Quote'
+import Blog from '@/Shared/Blog'
+import Footer from '@/Shared/Footer'
 
 export default {
-  metaInfo: { title: 'Dashboard' },
-  layout: Layout,
+  metaInfo: { title: 'Create Organization' },
+  components: {
+    Video,
+    Price,
+    Headers,
+    Quote,
+    Blog,
+    Footer,
+  },
+  //layout: Layout,
 }
 </script>
