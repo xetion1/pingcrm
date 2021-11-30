@@ -48,7 +48,7 @@
       </div>
       <div class="w-full font-bold px-8 pt-8 text-xl mt-auto text-red-500">
         Akcija
-        <span class="text-grey-light italic line-through text-red-500">
+        <span class="text-grey-light mt-2 italic line-through text-red-500">
             24,99€
         </span>
       </div>

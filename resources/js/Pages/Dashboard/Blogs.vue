@@ -8,16 +8,9 @@
     </div>
 
     <div>
-        <Video></Video>
+        <Contact></Contact>
     </div>
 
-    <div>
-        <Price></Price>
-    </div>
-
-    <div>
-        <Quote></Quote>
-    </div>
 
     <div>
         <Blog></Blog>
@@ -32,24 +25,19 @@
 </template>
 
 <script>
-import Price from '@/Shared/Price'
-import Layout from '@/Shared/Layout'
-import Video from '@/Shared/Video'
 import Headers from '@/Shared/Headers'
-import Quote from '@/Shared/Quote'
-import Blog from '@/Shared/Blog'
 import Footer from '@/Shared/Footer'
+import Contact from '@/Shared/Blog/Contact'
+import Blog from '@/Shared/Blog/Blog'
 
 export default {
-  metaInfo: { title: 'Dash' },
+  metaInfo: { title: 'Blog' },
   components: {
-    Video,
-    Price,
     Headers,
-    Quote,
+    Contact,
     Blog,
+    
     Footer,
   },
-  //layout: Layout,
 }
 </script>

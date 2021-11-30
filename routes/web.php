@@ -9,6 +9,7 @@ use App\Http\Controllers\ReportsController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +20,21 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/blogs', function(){
+    return inertia('Dashboard/Blogs');
+});
+Route::get('/Page1', function(){
+    return inertia('Blog/Page1');
+});
+
+Route::get('/blogs2', function(){
+    return inertia('Blog/Page2');
+});
+
+Route::get('/blogs3', function(){
+    return inertia('Blog/Page3');
+});
 
 // Auth
 
