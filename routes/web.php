@@ -20,7 +20,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Team
+Route::get('/team', function(){
+    return inertia('Team/TeamIndex');
+});
+// About
+Route::get('/about', function(){
+    return inertia('Dashboard/AboutIndex');
+});
 
+// Blog
 Route::get('/blogs', function(){
     return inertia('Dashboard/Blogs');
 });
