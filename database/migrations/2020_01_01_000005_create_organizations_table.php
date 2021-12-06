@@ -23,6 +23,7 @@ class CreateOrganizationsTable extends Migration
             $table->string('city', 50)->nullable();
             $table->string('region', 50)->nullable();
             $table->string('country', 2)->nullable();
+            $table->string('plan', 2)->nullable();
             $table->string('postal_code', 25)->nullable();
             $table->timestamps();
             $table->softDeletes();

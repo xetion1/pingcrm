@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-8 font-bold text-3xl">Organizations</h1>
+    <h1 class="mb-8 font-bold text-3xl">Organizacija</h1>
     <div class="mb-6 flex justify-between items-center">
       <search-filter v-model="form.search" class="w-full max-w-md mr-4" @reset="reset">
         <label class="block text-gray-700">Trashed:</label>
@@ -11,16 +11,16 @@
         </select>
       </search-filter>
       <inertia-link class="btn-indigo" :href="route('organizations.create')">
-        <span>Create</span>
-        <span class="hidden md:inline">Organization</span>
+        <span>Sukurti</span>
+        <span class="hidden md:inline">Organizacija</span>
       </inertia-link>
     </div>
     <div class="bg-white rounded-md shadow overflow-x-auto">
       <table class="w-full whitespace-nowrap">
         <tr class="text-left font-bold">
-          <th class="px-6 pt-6 pb-4">Name</th>
-          <th class="px-6 pt-6 pb-4">City</th>
-          <th class="px-6 pt-6 pb-4" colspan="2">Phone</th>
+          <th class="px-6 pt-6 pb-4">Vardas</th>
+          <th class="px-6 pt-6 pb-4">Miestas</th>
+          <th class="px-6 pt-6 pb-4" colspan="2">Mob. Nr.</th>
         </tr>
         <tr v-for="organization in organizations.data" :key="organization.id" class="hover:bg-gray-100 focus-within:bg-gray-100">
           <td class="border-t">
@@ -46,7 +46,7 @@
           </td>
         </tr>
         <tr v-if="organizations.data.length === 0">
-          <td class="border-t px-6 py-4" colspan="4">No organizations found.</td>
+          <td class="border-t px-6 py-4" colspan="4">Jokių Organizacijų.</td>
         </tr>
       </table>
     </div>

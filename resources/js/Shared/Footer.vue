@@ -23,10 +23,10 @@
                 </div>
                 <div class="flex mt-4 md:m-0">
                     <div class="-mx-4">
-                      <a href="#" class="px-4 text-sm">Pagrindinis</a>
-                      <a href="#" class="px-4 text-sm">Blog'as</a>
-                      <a href="#" class="px-4 text-sm">Informacija</a>
-                      <a href="#" class="px-4 text-sm">Komanda</a>
+                      <a href="http://127.0.0.1:8000" class="px-4 text-sm">Pagrindinis</a>
+                      <a href="http://127.0.0.1:8000/blogs" class="px-4 text-sm">Blog'as</a>
+                      <a href="http://127.0.0.1:8000/about" class="px-4 text-sm">Informacija</a>
+                      <a href="http://127.0.0.1:8000/team" class="px-4 text-sm">Komanda</a>
                   	</div>
                 </div>
             </div>

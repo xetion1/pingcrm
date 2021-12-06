@@ -24,6 +24,7 @@ class OrganizationsController extends Controller
                     'name' => $organization->name,
                     'phone' => $organization->phone,
                     'city' => $organization->city,
+                    'plan' => $organization->plan,
                     'deleted_at' => $organization->deleted_at,
                 ]),
         ]);
@@ -43,6 +44,7 @@ class OrganizationsController extends Controller
                 'phone' => ['nullable', 'max:50'],
                 'address' => ['nullable', 'max:150'],
                 'city' => ['nullable', 'max:50'],
+                'plan' => ['nullable', 'max:50'],
                 'region' => ['nullable', 'max:50'],
                 'country' => ['nullable', 'max:2'],
                 'postal_code' => ['nullable', 'max:25'],
@@ -62,11 +64,12 @@ class OrganizationsController extends Controller
                 'phone' => $organization->phone,
                 'address' => $organization->address,
                 'city' => $organization->city,
+                'plan' => $organization->plan,
                 'region' => $organization->region,
                 'country' => $organization->country,
                 'postal_code' => $organization->postal_code,
                 'deleted_at' => $organization->deleted_at,
-                'contacts' => $organization->contacts()->orderByName()->get()->map->only('id', 'name', 'city', 'phone'),
+                'contacts' => $organization->contacts()->orderByName()->get()->map->only('id', 'name', 'city', 'phone', 'plan'),
             ],
         ]);
     }
@@ -80,6 +83,7 @@ class OrganizationsController extends Controller
                 'phone' => ['nullable', 'max:50'],
                 'address' => ['nullable', 'max:150'],
                 'city' => ['nullable', 'max:50'],
+                'plan' => ['nullable', 'max:50'],
                 'region' => ['nullable', 'max:50'],
                 'country' => ['nullable', 'max:2'],
                 'postal_code' => ['nullable', 'max:25'],

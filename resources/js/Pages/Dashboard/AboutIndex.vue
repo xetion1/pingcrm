@@ -8,7 +8,6 @@
     </div>
 
     <div >
-        <AboutQnA></AboutQnA>
     </div>
 
     <div>
