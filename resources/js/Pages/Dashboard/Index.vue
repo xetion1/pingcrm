@@ -50,6 +50,6 @@ export default {
     Blog,
     Footer,
   },
-  layout: Layout,
+  //layout: Layout,
 }
 </script>

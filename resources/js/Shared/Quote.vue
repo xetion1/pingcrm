@@ -1,5 +1,5 @@
 <template>
-<div class="flex justify-center items-center w-screen h-66 bg-gray-700">
+<div class="flex justify-center items-center w-90 h-66 bg-gray-700">
 	<!-- COMPONENT CODE -->
 	<div class="container mx-auto mt-10 mb-10 lg:mb-40 lg:px-20">
 		<div class="relative w-full my-4 lg:w-9/12 mr-auto rounded-2xl shadow-2xl">

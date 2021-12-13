@@ -8,6 +8,7 @@ use App\Http\Controllers\OrganizationsController;
 use App\Http\Controllers\ReportsController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MailController;
 
 
 /*
@@ -37,11 +38,11 @@ Route::get('/Page1', function(){
     return inertia('Blog/Page1');
 });
 
-Route::get('/blogs2', function(){
+Route::get('/Page2', function(){
     return inertia('Blog/Page2');
 });
 
-Route::get('/blogs3', function(){
+Route::get('/Page3', function(){
     return inertia('Blog/Page3');
 });
 
@@ -165,3 +166,6 @@ Route::get('reports', [ReportsController::class, 'index'])
 Route::get('/img/{path}', [ImagesController::class, 'show'])
     ->where('path', '.*')
     ->name('image');
+
+
+Route::get('/send-email', [MailController::class, 'sendEmail']);

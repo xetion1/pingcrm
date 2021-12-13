@@ -9,7 +9,7 @@
                 <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
                 <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
                     <h3 class="text-center">
-                        <a class="text-white text-2xl font-bold text-center" href="#">
+                        <a class="text-white text-2xl font-bold text-center" href="/Page1">
                             <span class="absolute inset-0"></span>
                             SUSTIPRINKITE KOJAS
                         </a>
@@ -21,9 +21,9 @@
                 <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
                 <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
                     <h3 class="text-center">
-                        <a class="text-white text-2xl font-bold text-center" href="#">
+                        <a class="text-white text-2xl font-bold text-center" href="/Page2">
                             <span class="absolute inset-0"></span>
-                            8 POPULIARIAUSIOS PROGRAMOS
+                            3 POPULIARIAUSIOS PROGRAMOS
                         </a>
                     </h3>
                 </div>
@@ -33,7 +33,7 @@
                 <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
                 <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
                     <h3 class="text-center">
-                        <a class="text-white text-2xl font-bold text-center" href="#">
+                        <a class="text-white text-2xl font-bold text-center" href="/Page3">
                             <span class="absolute inset-0"></span>
                             KAIP ATRODYS KITŲ METŲ TRENIRUOTĖS?
                         </a>
